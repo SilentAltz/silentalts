@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open sans';
+    text-align: center;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.container span{
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{
+    font-size: 30px;
+    color: rgb(26, 102, 173);
+}
+@keyframes text{
+    0%{
+        color: rgb(0, 0, 0);
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+.SFA sfass img{
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+.copyright{
+    background-color: #ccc;
+    text-align: center;
+}
+.copyright p{
+    color: rgb(228, 175, 0);
+}
+.copyright p a{
+    text-decoration: none;
+    color: black;
+}
